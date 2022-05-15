@@ -36,3 +36,14 @@
 -	Scalable Infrastructure
 -	CSF Security
 -	Production and Deployment
+
+## Credentials
+To log to the blogging app use the below credentials
+
+```bash
+# Username
+kenn
+```
+```bash
+# Password
+#$%^sfasdfahah
