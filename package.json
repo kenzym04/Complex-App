@@ -1,0 +1,40 @@
+{
+  "name": "complex-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon db --ignore frontend-js --ignore public/ & webpack --watch",
+    "start": "nodemon start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@sendgrid/mail": "^7.6.2",
+    "axios": "^0.27.2",
+    "babel-loader": "^8.0.6",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "csurf": "^1.10.0",
+    "dompurify": "^2.3.8",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^4.0.15",
+    "md5": "^2.2.1",
+    "mongodb": "^4.6.0",
+    "nodemon": "^2.0.16",
+    "sanitize-html": "^2.7.0",
+    "socket.io": "^4.5.0",
+    "validator": "^13.7.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
